@@ -1,14 +1,15 @@
-# Build outputs (regenerable locally)
-site/
 
+# Build outputs (regenerable locally)
+# Editors / OS
 # Python
 *.pyc
-__pycache__/
-.pytest_cache/
-.venv/
+.DS_Store
 .env
 .env.*
-
-# Editors / OS
-.DS_Store
+.pytest_cache/
+.venv/
 Thumbs.db
+__pycache__/
+dist/*.tmp
+node_modules/
+site/
