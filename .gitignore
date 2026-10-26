@@ -1,0 +1,14 @@
+# Build outputs (regenerable locally)
+site/
+
+# Python
+*.pyc
+__pycache__/
+.pytest_cache/
+.venv/
+.env
+.env.*
+
+# Editors / OS
+.DS_Store
+Thumbs.db
